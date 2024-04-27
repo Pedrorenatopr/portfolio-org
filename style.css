@@ -9,7 +9,10 @@ body {
     margin-right: 0;
 }
 
+
+
 .menu-lista {
+    display: none;
     list-style: none;
     display: flex;
     justify-content: end;
@@ -19,6 +22,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 1em;
+    display: none;
 }
 
 .texto-redes {
@@ -41,36 +45,46 @@ body {
     line-height: 2em;
 }
 
-hr {
-    width: 50%;
-}
+
 
 .perfil {
     display: block;
-    text-align: center;
+    text-align: left;
     padding: 2em;
     align-items: center;
+    position: fixed;
 }
 
 .material-icons.md-18 {
     font-size: 14px; 
 }
 
+.box-email {
+    padding-left: 20px;
+}
+
 .texto-perfil {
     line-height: 2em;
 }
 
+.box-projetos {
+    display: flex;
+    justify-content: center;
+}
+
 .projetos {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2em;
+    width: 1200px;
 }
 
 .texto-projeto {
     text-align: left;
     padding-left: 150px;
     font-size: 24px;
+    display: none;
 }
 
 .icones {
@@ -161,7 +175,24 @@ footer {
 
     .perfil {
         padding-top: 80px;
+        display: grid;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
+
+    .box-img-principal {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .box-email {
+        padding-left: 0;
+    }
+    
     
     .projetos {
         display: grid;
