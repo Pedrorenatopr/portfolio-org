@@ -217,6 +217,7 @@ footer {
 
     .box-email {
         padding-left: 0;
+        display: block;
     }
     
     
