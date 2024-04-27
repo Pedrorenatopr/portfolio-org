@@ -213,11 +213,17 @@ footer {
         justify-content: center;
     }
 
+    .texto-perfil {
+        margin: 0;
+        padding-top: 40px;
+    }
+
 
 
     .box-email {
         padding-left: 0;
         display: block;
+        margin: 5px;
     }
     
     
@@ -238,6 +244,10 @@ footer {
         display: flex;
         text-align: center;
         justify-content: center;
+    }
+
+    hr {
+        width: 200px;
     }
 
     
