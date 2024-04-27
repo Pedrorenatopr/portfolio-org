@@ -77,6 +77,16 @@ body {
     line-height: 2em;
 }
 
+.div-projetos p{
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.titulo-colaboradores {
+    text-align: center;
+}
+
 .box-projetos {
     display: flex;
     justify-content: center;
